@@ -18,17 +18,13 @@
 		A959D95029C87BCE00A391C1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A959D92829C8712700A391C1 /* Experience.rcproject */; };
 		A959D95129C87BCF00A391C1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A959D92829C8712700A391C1 /* Experience.rcproject */; };
 		A959D95729C87C8A00A391C1 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95629C87C8A00A391C1 /* Scan.swift */; };
-		A959D95829C87C8A00A391C1 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95629C87C8A00A391C1 /* Scan.swift */; };
-		A959D95929C87C8A00A391C1 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95629C87C8A00A391C1 /* Scan.swift */; };
-		A959D95B29C87FAE00A391C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95A29C87FAE00A391C1 /* Home.swift */; };
-		A959D95C29C87FAE00A391C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95A29C87FAE00A391C1 /* Home.swift */; };
-		A959D95D29C87FAE00A391C1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95A29C87FAE00A391C1 /* Home.swift */; };
 		A96B0FDE29C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
 		A96B0FDF29C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
 		A96B0FE029C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
 		A96B0FE229C941B500232C2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FE129C941B500232C2E /* Menu.swift */; };
-		A96B0FE329C941B500232C2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FE129C941B500232C2E /* Menu.swift */; };
-		A96B0FE429C941B500232C2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FE129C941B500232C2E /* Menu.swift */; };
+		A9B470F229CACD5600605E44 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B470F129CACD5600605E44 /* IntroView.swift */; };
+		A9B4710129CAD62B00605E44 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4710029CAD62B00605E44 /* Intro.swift */; };
+		A9B4710929CAD93F00605E44 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4710829CAD93F00605E44 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +57,11 @@
 		A959D94129C8712900A391C1 /* GreenVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVUITests.swift; sourceTree = "<group>"; };
 		A959D94329C8712900A391C1 /* GreenVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A959D95629C87C8A00A391C1 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
-		A959D95A29C87FAE00A391C1 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = ../../../../../.Trash/Home.swift; sourceTree = "<group>"; };
 		A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Leaf.rcproject; sourceTree = "<group>"; };
 		A96B0FE129C941B500232C2E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A9B470F129CACD5600605E44 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		A9B4710029CAD62B00605E44 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		A9B4710829CAD93F00605E44 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +112,10 @@
 		A959D92329C8712700A391C1 /* GreenV */ = {
 			isa = PBXGroup;
 			children = (
+				A9B4710229CAD7EC00605E44 /* View */,
+				A9B470FF29CAD61D00605E44 /* Model */,
 				A959D92429C8712700A391C1 /* AppDelegate.swift */,
 				A959D92629C8712700A391C1 /* ContentView.swift */,
-				A959D95629C87C8A00A391C1 /* Scan.swift */,
-				A959D95A29C87FAE00A391C1 /* Home.swift */,
-				A96B0FE129C941B500232C2E /* Menu.swift */,
 				A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */,
 				A959D92829C8712700A391C1 /* Experience.rcproject */,
 				A959D92A29C8712900A391C1 /* Assets.xcassets */,
@@ -150,6 +147,25 @@
 				A959D94329C8712900A391C1 /* GreenVUITestsLaunchTests.swift */,
 			);
 			path = GreenVUITests;
+			sourceTree = "<group>";
+		};
+		A9B470FF29CAD61D00605E44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4710029CAD62B00605E44 /* Intro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9B4710229CAD7EC00605E44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4710829CAD93F00605E44 /* Home.swift */,
+				A9B470F129CACD5600605E44 /* IntroView.swift */,
+				A959D95629C87C8A00A391C1 /* Scan.swift */,
+				A96B0FE129C941B500232C2E /* Menu.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A959D92729C8712700A391C1 /* ContentView.swift in Sources */,
+				A9B470F229CACD5600605E44 /* IntroView.swift in Sources */,
+				A9B4710929CAD93F00605E44 /* Home.swift in Sources */,
+				A9B4710129CAD62B00605E44 /* Intro.swift in Sources */,
 				A959D95729C87C8A00A391C1 /* Scan.swift in Sources */,
 				A96B0FE229C941B500232C2E /* Menu.swift in Sources */,
-				A959D95B29C87FAE00A391C1 /* Home.swift in Sources */,
 				A96B0FDE29C8AEB700232C2E /* Leaf.rcproject in Sources */,
 				A959D92529C8712700A391C1 /* AppDelegate.swift in Sources */,
 				A959D92929C8712700A391C1 /* Experience.rcproject in Sources */,
@@ -296,10 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96B0FE329C941B500232C2E /* Menu.swift in Sources */,
 				A959D95029C87BCE00A391C1 /* Experience.rcproject in Sources */,
-				A959D95829C87C8A00A391C1 /* Scan.swift in Sources */,
-				A959D95C29C87FAE00A391C1 /* Home.swift in Sources */,
 				A959D93829C8712900A391C1 /* GreenVTests.swift in Sources */,
 				A96B0FDF29C8AEB700232C2E /* Leaf.rcproject in Sources */,
 			);
@@ -310,9 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A959D94229C8712900A391C1 /* GreenVUITests.swift in Sources */,
-				A959D95929C87C8A00A391C1 /* Scan.swift in Sources */,
-				A96B0FE429C941B500232C2E /* Menu.swift in Sources */,
-				A959D95D29C87FAE00A391C1 /* Home.swift in Sources */,
 				A96B0FE029C8AEB700232C2E /* Leaf.rcproject in Sources */,
 				A959D94429C8712900A391C1 /* GreenVUITestsLaunchTests.swift in Sources */,
 				A959D95129C87BCF00A391C1 /* Experience.rcproject in Sources */,
@@ -460,13 +472,14 @@
 				DEVELOPMENT_TEAM = CK8M57PVR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenV/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,13 +504,14 @@
 				DEVELOPMENT_TEAM = CK8M57PVR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenV/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
