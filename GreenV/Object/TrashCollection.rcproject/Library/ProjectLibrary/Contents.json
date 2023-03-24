@@ -1,0 +1,72 @@
+[
+  {
+    "libraryIdentifier" : "969946a036c015207479066eed6a1c75",
+    "format" : "image",
+    "displayName" : "card-leaf-02.png"
+  },
+  {
+    "libraryIdentifier" : "d7d7015033fd4cb6c3e75a39fe276624",
+    "format" : "model",
+    "displayName" : "leaf.usdz"
+  },
+  {
+    "libraryIdentifier" : "dff85d07c2f6d8ca433225da9dd01730",
+    "format" : "image",
+    "displayName" : "burger-01.png"
+  },
+  {
+    "libraryIdentifier" : "95e102399e466f60b8b95d53206c891c",
+    "format" : "model",
+    "displayName" : "burger.usdz"
+  },
+  {
+    "libraryIdentifier" : "6dbd1534c19ad8a004800e12f958d9df",
+    "format" : "model",
+    "displayName" : "drink-packaging.usdz"
+  },
+  {
+    "libraryIdentifier" : "1352bff3463b0802fb38fe42eb7b68ae",
+    "format" : "model",
+    "displayName" : "trashbin-organic.usdz"
+  },
+  {
+    "libraryIdentifier" : "f6aa08de0baefeb5aa8c416612c098c8",
+    "format" : "model",
+    "displayName" : "paper-bag.usdz"
+  },
+  {
+    "libraryIdentifier" : "7bac8b46d8bbc505d0055209427ed7c2",
+    "format" : "model",
+    "displayName" : "battery.usdz"
+  },
+  {
+    "libraryIdentifier" : "6a5fb057ed785dc2d9cd8e19237b21ca",
+    "format" : "model",
+    "displayName" : "med.usdz"
+  },
+  {
+    "libraryIdentifier" : "42d68394ddb566e83c371b9b1af95a37",
+    "format" : "model",
+    "displayName" : "shampoo-tub.usdz"
+  },
+  {
+    "libraryIdentifier" : "884a3addd3e16968a725c93c2437361d",
+    "format" : "model",
+    "displayName" : "serum_bottle.usdz"
+  },
+  {
+    "libraryIdentifier" : "e9257546ad1b030481357dbbc495b08c",
+    "format" : "model",
+    "displayName" : "gas-bottle.usdz"
+  },
+  {
+    "libraryIdentifier" : "31946db8dadd09b1ff6fe91800bc8f3d",
+    "format" : "model",
+    "displayName" : "trashbin-anorganic.usdz"
+  },
+  {
+    "libraryIdentifier" : "8ebf0b6730037f1bfb0e44660e9584f7",
+    "format" : "model",
+    "displayName" : "trashbin-b3.usdz"
+  }
+]

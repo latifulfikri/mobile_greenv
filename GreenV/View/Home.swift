@@ -8,21 +8,44 @@
 import SwiftUI
 
 struct Home: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         NavigationView {
             ZStack{
                 Color("background").ignoresSafeArea(.all)
                 ScrollView(showsIndicators: false) {
-                    VStack {
+                    VStack(alignment: .leading) {
                         PageTitle(title: "Select a\nTrash Bin")
+                            .padding(.top,32)
+                        Text("Can you identify the correct trash can in our menu below? Let's put your skills to the test and see if you can pick the right one!")
+                            .padding(.horizontal,32)
+                            .padding(.bottom,16)
                         VStack(alignment: .leading) {
-                            MainButton(text: "Organic", des: Scan())
+                            MainButton(text: "Organic", des: OrganicAR(),color: "green", image: "trashbin-organic")
+                            MainButton(text: "Anorganic", des: AnorganicAR(),color: "yellow", image: "trashbin-anorganic")
+                            MainButton(text: "Toxic and Hazardous", des: ToxicHazardousAR(),color: "red", image: "trashbin-th")
                         }
+                        HStack {
+                            Button {
+                                presentationMode.wrappedValue.dismiss()
+                            }label: {
+                                Text("Back to tutorial")
+                                    .bold()
+                                    .padding(.horizontal,40)
+                                    .padding(.vertical,14)
+                                    .foregroundColor(.white)
+                                    .background {
+                                        Capsule().fill(Color("text-theme"))
+                                    }
+                            }
+                        }.frame(maxWidth: .infinity, alignment: .center)
+                            .padding(.all,32)
                     }
                 }
             }
         }
-        .navigationBarHidden(true)
+        .toolbar(.hidden)
     }
 }
 
@@ -35,7 +58,7 @@ struct Home_Previews: PreviewProvider {
 func PageTitle(title:String)->some View{
     HStack {
         VStack(alignment: .leading) {
-            Text(title).font(.largeTitle).foregroundColor(Color("text-theme"))
+            Text(title).font(.title).foregroundColor(Color("text-theme"))
                 .fontWeight(.black)
         }
     }.frame(maxWidth: .infinity,alignment: .leading)
@@ -54,7 +77,7 @@ func HowToPoint(num:Int,text:String)-> some View{
     }.padding(.bottom,16)
 }
 
-func MainButton(text:String,des:some View)->some View {
+func MainButton(text:String,des:some View,color:String,image:String)->some View {
     VStack {
         NavigationLink(
             destination: des,
@@ -65,13 +88,20 @@ func MainButton(text:String,des:some View)->some View {
                             Color.white
                         ).frame(height: 96)
                     HStack {
-                        Text(text).font(.title.bold()).padding(.leading,32)
+                        Image(image)
+                            .resizable()
+                            .frame(width: 92,height: 92)
+                            .padding(.leading,16)
+                        Text(text).font(.title3.bold())
+                            .foregroundColor(Color(color+"-primary"))
+                            .multilineTextAlignment(.leading)
                         Spacer()
                         RoundedRectangle(cornerRadius: 24)
                             .frame(width: 64,height: 64).padding(16)
                             .overlay(
-                                Image(systemName: "play.fill").foregroundColor(Color.white)
+                                Image(systemName: "play.fill").foregroundColor(Color(color+"-primary"))
                             )
+                            .foregroundColor(Color(color+"-secondary"))
                     }
                 }
             }

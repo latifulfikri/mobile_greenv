@@ -29,42 +29,47 @@ struct IntroView: View {
             let size = $0.size
             
             ZStack {
+//                Color("text-theme").ignoresSafeArea(.all)
                 ForEach(intros.indices, id:\.self) {
                     index in
                     screenView(size: size, id: index)
                 }
-            }
-            .frame(maxWidth: .infinity,maxHeight: .infinity)
-            .overlay(alignment: .bottom) {
-                NavigationLink(destination: Home()) {
-                    Text("Get started")
-                        .bold()
-                        .padding(.horizontal,40)
-                        .padding(.vertical,14)
-                        .foregroundColor(.white)
-                        .background {
-                            Capsule().fill(Color("text-theme"))
+                VStack {
+                    Spacer()
+                    if isLast {
+                        NavigationLink(destination: Home()) {
+                            Text("Get started")
+                                .bold()
+                                .padding(.horizontal,40)
+                                .padding(.vertical,14)
+                                .foregroundColor(.white)
+                                .background {
+                                    Capsule().fill(Color("text-theme"))
+                                }
+                        }
+                        .scaleEffect(isLast ? 1 : 0)
+                    }
+                    if !isLast {
+                        Image(systemName: "chevron.right")
+                            .padding(.all,24)
+                            .foregroundColor(.white)
+                            .background {
+                                Circle().fill(Color("text-theme"))
+                            }
+                            .onTapGesture {
+                                if !isLast {
+                                    currentStep += 1
+                                }
+                            }
+                            .scaleEffect(isLast ? 0 : 1)
                     }
                 }
-                .scaleEffect(isLast ? 1 : 0)
-                if !isLast {
-                    Image(systemName: "chevron.right")
-                        .padding(.all,24)
-                        .foregroundColor(.white)
-                        .background {
-                            Circle().fill(Color("text-theme"))
-                        }
-                        .onTapGesture {
-                            if !isLast {
-                                currentStep += 1
-                            }
-                        }
-                        .scaleEffect(isLast ? 0 : 1)
-                }
+                .frame(maxWidth: .infinity,maxHeight: .infinity)
+                .padding(.bottom,16)
             }
+            .frame(maxWidth: .infinity,maxHeight: .infinity)
             .offset(y:showWalkThroughScreen ? 0 : size.height)
             .animation(.interactiveSpring(response: 0.5, dampingFraction: 0.8, blendDuration: 1), value: isLast)
-            .padding(.vertical,32)
         }
     }
     
@@ -73,28 +78,27 @@ struct IntroView: View {
         let index = currentStep > (intros.count - 1) ? (intros.count - 1) : id
         let introItem = intros[index]
         VStack(spacing: 10) {
+            Spacer()
             Image(introItem.imageName)
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
                 .frame(width: size.width / 3*2, height: size.height / 3,alignment: .center)
-                .padding(.top,36)
-                .offset(y:70)
                 .offset(x: -size.width * CGFloat(currentStep - id))
                 .animation(.interactiveSpring(response: 0.9, dampingFraction: 0.8, blendDuration: 0.5), value: currentStep)
             Spacer()
             VStack(alignment: .center) {
                 Text(introItem.title).font(.largeTitle.weight(.black)).foregroundColor(Color("text-theme")
-                )
+                ).lineSpacing(0)
+                    .padding(.bottom,4)
                 .multilineTextAlignment(.center)
                 Text(introItem.desc)
                     .multilineTextAlignment(.center)
-                    .padding(.horizontal,36)
-                    .offset(y:18)
+                    .padding(.bottom,16)
             }
             .padding(.horizontal,42)
-            .offset(y:-120)
             .offset(x: -size.width * CGFloat(currentStep - id))
             .animation(.interactiveSpring(response: 0.5, dampingFraction: 0.8, blendDuration: 0.5), value: currentStep)
+            Spacer()
         }
     }
     
@@ -131,7 +135,7 @@ struct IntroView: View {
         }
         .padding(32)
         .frame(maxHeight: .infinity,alignment: .top)
-        .offset(y:showWalkThroughScreen ? 0 : -120)
+        .offset(y:showWalkThroughScreen ? 0 : -200)
         .animation(.interactiveSpring(response: 0.5, dampingFraction: 0.8, blendDuration: 0.5), value: currentStep)
     }
     
@@ -144,17 +148,17 @@ struct IntroView: View {
             VStack(spacing: 10) {
                 Image("intro-card")
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: size.width / 3*2, height: size.height / 3,alignment: .center)
-                    .padding(.top,36)
-                    .offset(y:70)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: size.width / 3*2, height: size.height / 2,alignment: .center)
+                    .padding(.top,75)
                 Spacer()
                 VStack(alignment: .center) {
                     Text("Welcome").font(.largeTitle.weight(.black)).foregroundColor(Color("text-theme")
-                    )
+                    ).lineSpacing(0)
+                        .padding(.bottom,4)
                     Text("Welcome to Green V. Let's see how can you sort the trash correctly")
                         .multilineTextAlignment(.center)
-                        .padding(.vertical,16)
+                        .padding(.bottom,16)
                     Button {
                         showWalkThroughScreen.toggle()
                     }label: {
@@ -169,12 +173,13 @@ struct IntroView: View {
                     }
                 }
                 .padding(.horizontal,42)
-                .offset(y:-90)
+                .padding(.bottom,56)
             }
             .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .top)
 //            moving up
             .offset(y: showWalkThroughScreen ? -size.height : 0)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .ignoresSafeArea(.all)
     }
 

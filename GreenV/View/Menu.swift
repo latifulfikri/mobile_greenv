@@ -16,9 +16,9 @@ struct Menu: View {
                     VStack {
                         PageTitle(title: "Select\nTrash Bin")
                         VStack(alignment: .leading) {
-                            MenuButton(text: "Organic", des: Scan(),priColor:Color("green-primary"),secColor: Color("green-secondary"))
-                            MenuButton(text: "Anorganic", des: Scan(),priColor:Color("yellow-primary"),secColor: Color("yellow-secondary"))
-                            MenuButton(text: "Toxic and Hazardus", des: Scan(),priColor:Color("red-primary"),secColor: Color("red-secondary"))
+                            MenuButton(text: "Organic", des: OrganicAR(),priColor:Color("green-primary"),secColor: Color("green-secondary"))
+                            MenuButton(text: "Anorganic", des: OrganicAR(),priColor:Color("yellow-primary"),secColor: Color("yellow-secondary"))
+                            MenuButton(text: "Toxic and Hazardus", des: OrganicAR(),priColor:Color("red-primary"),secColor: Color("red-secondary"))
                         }.padding(24)
                     }
                 }

@@ -9,8 +9,18 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @State public var page:String = "intro"
+    
     var body: some View {
-        IntroView()
+        
+        if page == "intro" {
+            IntroView()
+        }
+        
+        if page == "home" {
+            Home()
+        }
+        
     }
 }
 

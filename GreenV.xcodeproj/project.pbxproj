@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		A959D92529C8712700A391C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D92429C8712700A391C1 /* AppDelegate.swift */; };
 		A959D92729C8712700A391C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D92629C8712700A391C1 /* ContentView.swift */; };
-		A959D92929C8712700A391C1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A959D92829C8712700A391C1 /* Experience.rcproject */; };
 		A959D92B29C8712900A391C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A959D92A29C8712900A391C1 /* Assets.xcassets */; };
 		A959D92E29C8712900A391C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A959D92D29C8712900A391C1 /* Preview Assets.xcassets */; };
 		A959D93829C8712900A391C1 /* GreenVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D93729C8712900A391C1 /* GreenVTests.swift */; };
 		A959D94229C8712900A391C1 /* GreenVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D94129C8712900A391C1 /* GreenVUITests.swift */; };
 		A959D94429C8712900A391C1 /* GreenVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D94329C8712900A391C1 /* GreenVUITestsLaunchTests.swift */; };
-		A959D95029C87BCE00A391C1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A959D92829C8712700A391C1 /* Experience.rcproject */; };
-		A959D95129C87BCF00A391C1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A959D92829C8712700A391C1 /* Experience.rcproject */; };
-		A959D95729C87C8A00A391C1 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95629C87C8A00A391C1 /* Scan.swift */; };
-		A96B0FDE29C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
-		A96B0FDF29C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
-		A96B0FE029C8AEB700232C2E /* Leaf.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */; };
+		A959D95729C87C8A00A391C1 /* OrganicAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A959D95629C87C8A00A391C1 /* OrganicAR.swift */; };
+		A96B0FDE29C8AEB700232C2E /* TrashCollection.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* TrashCollection.rcproject */; };
+		A96B0FDF29C8AEB700232C2E /* TrashCollection.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* TrashCollection.rcproject */; };
+		A96B0FE029C8AEB700232C2E /* TrashCollection.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FDD29C8AEB700232C2E /* TrashCollection.rcproject */; };
 		A96B0FE229C941B500232C2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96B0FE129C941B500232C2E /* Menu.swift */; };
+		A98C782429CDAD990075BA34 /* AnorganicAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C782329CDAD990075BA34 /* AnorganicAR.swift */; };
+		A98C782629CDAED40075BA34 /* ToxicHazardousAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C782529CDAED40075BA34 /* ToxicHazardousAR.swift */; };
+		A98C782829CDB4960075BA34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98C782729CDB4960075BA34 /* LaunchScreen.storyboard */; };
 		A9B470F229CACD5600605E44 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B470F129CACD5600605E44 /* IntroView.swift */; };
 		A9B4710129CAD62B00605E44 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4710029CAD62B00605E44 /* Intro.swift */; };
 		A9B4710929CAD93F00605E44 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4710829CAD93F00605E44 /* Home.swift */; };
@@ -48,7 +48,6 @@
 		A959D92129C8712700A391C1 /* GreenV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A959D92429C8712700A391C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A959D92629C8712700A391C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A959D92829C8712700A391C1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		A959D92A29C8712900A391C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A959D92D29C8712900A391C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A959D93329C8712900A391C1 /* GreenVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,9 +55,12 @@
 		A959D93D29C8712900A391C1 /* GreenVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A959D94129C8712900A391C1 /* GreenVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVUITests.swift; sourceTree = "<group>"; };
 		A959D94329C8712900A391C1 /* GreenVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A959D95629C87C8A00A391C1 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
-		A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Leaf.rcproject; sourceTree = "<group>"; };
+		A959D95629C87C8A00A391C1 /* OrganicAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicAR.swift; sourceTree = "<group>"; };
+		A96B0FDD29C8AEB700232C2E /* TrashCollection.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = TrashCollection.rcproject; sourceTree = "<group>"; };
 		A96B0FE129C941B500232C2E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A98C782329CDAD990075BA34 /* AnorganicAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnorganicAR.swift; sourceTree = "<group>"; };
+		A98C782529CDAED40075BA34 /* ToxicHazardousAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToxicHazardousAR.swift; sourceTree = "<group>"; };
+		A98C782729CDB4960075BA34 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B470F129CACD5600605E44 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		A9B4710029CAD62B00605E44 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		A9B4710829CAD93F00605E44 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -112,12 +114,11 @@
 		A959D92329C8712700A391C1 /* GreenV */ = {
 			isa = PBXGroup;
 			children = (
+				A9FAC38029CCA7D500B8792B /* Object */,
 				A9B4710229CAD7EC00605E44 /* View */,
 				A9B470FF29CAD61D00605E44 /* Model */,
 				A959D92429C8712700A391C1 /* AppDelegate.swift */,
 				A959D92629C8712700A391C1 /* ContentView.swift */,
-				A96B0FDD29C8AEB700232C2E /* Leaf.rcproject */,
-				A959D92829C8712700A391C1 /* Experience.rcproject */,
 				A959D92A29C8712900A391C1 /* Assets.xcassets */,
 				A959D92C29C8712900A391C1 /* Preview Content */,
 			);
@@ -162,10 +163,21 @@
 			children = (
 				A9B4710829CAD93F00605E44 /* Home.swift */,
 				A9B470F129CACD5600605E44 /* IntroView.swift */,
-				A959D95629C87C8A00A391C1 /* Scan.swift */,
+				A959D95629C87C8A00A391C1 /* OrganicAR.swift */,
 				A96B0FE129C941B500232C2E /* Menu.swift */,
+				A98C782329CDAD990075BA34 /* AnorganicAR.swift */,
+				A98C782529CDAED40075BA34 /* ToxicHazardousAR.swift */,
+				A98C782729CDB4960075BA34 /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A9FAC38029CCA7D500B8792B /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A96B0FDD29C8AEB700232C2E /* TrashCollection.rcproject */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98C782829CDB4960075BA34 /* LaunchScreen.storyboard in Resources */,
 				A959D92E29C8712900A391C1 /* Preview Assets.xcassets in Resources */,
 				A959D92B29C8712900A391C1 /* Assets.xcassets in Resources */,
 			);
@@ -302,11 +315,12 @@
 				A9B470F229CACD5600605E44 /* IntroView.swift in Sources */,
 				A9B4710929CAD93F00605E44 /* Home.swift in Sources */,
 				A9B4710129CAD62B00605E44 /* Intro.swift in Sources */,
-				A959D95729C87C8A00A391C1 /* Scan.swift in Sources */,
+				A98C782629CDAED40075BA34 /* ToxicHazardousAR.swift in Sources */,
+				A959D95729C87C8A00A391C1 /* OrganicAR.swift in Sources */,
 				A96B0FE229C941B500232C2E /* Menu.swift in Sources */,
-				A96B0FDE29C8AEB700232C2E /* Leaf.rcproject in Sources */,
+				A96B0FDE29C8AEB700232C2E /* TrashCollection.rcproject in Sources */,
+				A98C782429CDAD990075BA34 /* AnorganicAR.swift in Sources */,
 				A959D92529C8712700A391C1 /* AppDelegate.swift in Sources */,
-				A959D92929C8712700A391C1 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A959D95029C87BCE00A391C1 /* Experience.rcproject in Sources */,
 				A959D93829C8712900A391C1 /* GreenVTests.swift in Sources */,
-				A96B0FDF29C8AEB700232C2E /* Leaf.rcproject in Sources */,
+				A96B0FDF29C8AEB700232C2E /* TrashCollection.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A959D94229C8712900A391C1 /* GreenVUITests.swift in Sources */,
-				A96B0FE029C8AEB700232C2E /* Leaf.rcproject in Sources */,
+				A96B0FE029C8AEB700232C2E /* TrashCollection.rcproject in Sources */,
 				A959D94429C8712900A391C1 /* GreenVUITestsLaunchTests.swift in Sources */,
-				A959D95129C87BCF00A391C1 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GreenV/Preview Content\"";
@@ -476,6 +489,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -502,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GreenV/Preview Content\"";
@@ -512,6 +527,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -546,9 +562,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikriyuwi.GreenVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenV";
 			};
 			name = Debug;
@@ -566,9 +585,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikriyuwi.GreenVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenV";
 			};
 			name = Release;
@@ -584,9 +606,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikriyuwi.GreenVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = GreenV;
 			};
 			name = Debug;
@@ -602,9 +627,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fikriyuwi.GreenVUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = GreenV;
 			};
 			name = Release;
